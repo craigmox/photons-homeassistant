@@ -5,7 +5,7 @@ description: "Run the Photons Interactor Daemon"
 init: false
 map: ["config:rw"]
 environment:
-  INTERACTOR_HOST: "192.168.1.99"
+  INTERACTOR_HOST: "192.168.107.99"
 watchdog: "http://[HOST]:[PORT:6100]/v1/lifx/status"
 arch:
   - aarch64
